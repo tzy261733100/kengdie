@@ -1,0 +1,153 @@
+@charset "utf-8";
+p{
+    font-family:fantasy;
+}
+
+.lead li:hover > ul li {
+    height: 36px;
+    overflow: visible;
+    padding: 0;}
+    .lead ul li {
+        height: 0;
+        overflow: hidden;}
+    
+
+.lead,lead ul,lead li,lead li a
+   {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.lead
+   {
+    height: 150px;
+    width: 505px;
+    
+    border-radius: 5px;
+}
+.lead li:hover > ul { opacity: 1; }
+.lead ul
+   {
+    position: relative;
+    top:-20px;
+    left:0px;
+    opacity: 0;
+    border-radius: 0 0 5px 5px;
+    background: yellow;
+    transition: opacity .25s ease .1s;
+    
+    
+}
+.lead li
+   {
+    float: left;
+    position: relative;
+    list-style: none;
+    height:30px;
+    
+}
+.lead li:hover > ul li {
+    height: 36px;
+    overflow: visible;
+    padding: 0;
+}
+.lead ul li {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: height .25s ease .1s;
+}
+
+
+
+.lead li a
+   {
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    transition: color .2s ease-in-out;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    color:green;
+    
+}
+
+.lead li:hover > a { color: #8fde62; }/* 改变浮动是字体颜色 */
+
+
+.lead ul li a {
+    width: 100px;
+    padding: 4px 0 4px 40px;
+    margin: 0;
+    border: none;
+    
+    text-decoration: none;
+    
+}/* 字体好看 */
+.ldiv{
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+    background-color:PowderBlue;
+    height:200px;
+    position: relative;
+    float:left;
+    opacity:0.9;
+    margin: 5px;
+    
+    
+}
+.rdiv{
+    width:80%;
+    border-radius: 10px 10px 10px 10px;
+    background-color:PaleTurquoise;
+    height:200px;
+    position: relative;
+    float: right;
+    opacity:0.9;
+    margin: 5px;
+   
+    
+
+
+}
+.ttop{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    opacity: 0.5;
+    background-color: yellow;
+    right:50px;
+    bottom: 50px;
+
+}
+.footer{
+    position: relative;
+    height: 20px;
+    width: 100%;
+    float:right;
+    text-align: center;
+    padding:5px;
+    margin: 10px;
+   
+    
+    
+}
+.bj{
+    position:fixed;
+}
+.top{
+   padding: 100px;
+   text-align: center; 
+   position: relative;
+}
+.left{
+    position: relative;
+    float:left;
+}
+.right{
+    position: relative;
+    float:right;
+}
+
+
+
