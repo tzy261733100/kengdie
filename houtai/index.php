@@ -18,7 +18,7 @@ include ('link.php');
     $info=mysqli_fetch_array($sql);
     ?>
     <label for="myName">征婚要求----------</label>
-    <input type="text" name="text3" class="xiao" value=" <?php echo $info["修改内容"]; ?>">
+    <input type="text" name="text" class="xiao" value=" <?php echo $info["修改内容"]; ?>">
     <input type="submit" value="确认更改" onclick="1" class="quer"><br/>
 </form>
 </body>
