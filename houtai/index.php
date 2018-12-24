@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php
-include ('conn.php');
+include ('link.php');
 ?>
     <form method="post" action="yaoqiu.php">
         <?php
